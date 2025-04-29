@@ -58,7 +58,7 @@ O projeto é funcional, modular e inclui **histerese** para estabilidade nas lei
 - Display **OLED SSD1306** (I2C, 128x64).
 - Matriz de LEDs **WS2812** (5x5).
 - Resistor de **10 kΩ** para o divisor de tensão.
-- Resistores de teste (ex.: **5 kΩ**, **10 kΩ**).
+- Resistores de teste (ex.: **5,10 kΩ**, **10 kΩ**).
 - Botões **A (GPIO5)** e **B (GPIO6)**.
 
 ### 🖥️ Software
@@ -118,7 +118,7 @@ Exemplos:
   - Display: `"10.00 kOhm"`, `"1:Marrom"`, `"2:Preto"`, `"M:Laranja"`.
   - WS2812: Colunas com cores marrom, preto e laranja.
 
-- **5 kΩ**:
+- **5,10 kΩ**:
   - Display: `"5.10 kOhm"`, `"1:Verde"`, `"2:Marrom"`, `"M:Marrom"`.
 
 - **2 kΩ**:
